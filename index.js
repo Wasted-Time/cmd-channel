@@ -136,3 +136,4 @@ module.exports = function CmdChannel(mod) {
 
 	this.destructor = () => { mod.command.remove(['c', 'ch', 'channel', 'ㅊ']); };
 };
+
